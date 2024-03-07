@@ -22,8 +22,8 @@ public class Sketch extends PApplet {
    */
   public void setup() {
     // variables
-    float fltSeason = random(1,4);
-    float fltSun = random(1,2);
+    float fltSeason = random(0,4);
+    float fltSun = random(0,2);
 
     // flower variables
     float fltFlowerX = random(0, width);
